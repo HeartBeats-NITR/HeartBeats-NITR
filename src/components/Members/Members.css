@@ -1,0 +1,22 @@
+body {
+  color: white !important;
+}
+
+.card {
+  padding: 0.2rem;
+  margin: 1rem auto;
+}
+.title {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.title h1 {
+  color: white !important;
+}
+
+.card .image {
+  object-fit: cover;
+  max-width: 100%;
+  background-origin: content-box;
+}

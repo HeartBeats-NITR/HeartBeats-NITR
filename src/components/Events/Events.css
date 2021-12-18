@@ -1,0 +1,27 @@
+.describe {
+  transition: transform 0.2s;
+}
+.describe:hover {
+  transform: scale(1.8);
+}
+.des {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 450px) {
+  .des {
+    font-size: 10.41px;
+  }
+}
+.ant-image-mask {
+  background: none !important;
+}
+.col-11 h1 {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.col-11 .des {
+  font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5em;
+}

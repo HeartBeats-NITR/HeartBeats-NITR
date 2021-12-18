@@ -1,0 +1,40 @@
+/* body {
+  color: white;
+} */
+@import "~antd/dist/antd.css";
+form#registera {
+  border: 3px solid #f3dada;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  background-color: #f7eff3;
+}
+form#registerb {
+  border: 3px solid #f5e6e6;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  background-color: #f7eff3;
+}
+.checkStatus {
+  font-size: 1.8rem;
+  font-family: "Courier New", Courier, monospace;
+  color: #000000;
+  width: 25%;
+  display: inline-flex;
+}
+h4 {
+  font-size: 1.6rem !important;
+  color: #1d1d1d;
+}
+
+.application {
+  padding: 1.5rem;
+  color: #ffffff;
+}
+li.ant-cascader-menu-item {
+  color: black;
+}
+@media screen and (max-width: 450px) {
+  h4 {
+    font-size: 1.15rem !important;
+  }
+}

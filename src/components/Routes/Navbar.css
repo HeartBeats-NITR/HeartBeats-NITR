@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:wght@700&display=swap");
+.navbar .navbar-brand {
+  font-size: 3rem;
+  color: #ffffff;
+  border-bottom: none;
+  font-family: "Redressed", "Josefin Sans", "Open Sans";
+}
+.navbar .navbar-brand:hover {
+  color: #dda2d5;
+}
+.navbar a {
+  font-size: 1.3rem;
+}
+.navbar a:hover {
+  color: #330b2e;
+}
+.active {
+  border-bottom: 2px solid #e0b8db;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
+  box-shadow: none;
+}
+a.navbar-brand.font-weight-bolder.active {
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: #ffffff;
+  border-bottom: none;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link,
+.toggler {
+  color: rgb(255, 224, 224);
+}
+.nav-item {
+  margin: 0.3rem;
+}
+.navbar-toggler {
+  background-color: transparent !important;
+  padding-bottom: 8px !important;
+  align-content: center;
+  border: 2px solid #fac1c1 !important;
+}
+@media screen and (max-width: 450px) {
+  .invisiblle {
+    display: none !important;
+  }
+  .navbar .navbar-brand {
+    font-size: 2.68rem;
+  }
+}
